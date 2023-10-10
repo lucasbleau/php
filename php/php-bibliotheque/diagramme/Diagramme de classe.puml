@@ -1,5 +1,9 @@
 @startuml
 
+class Media {
+-
+}
+
 class Livre {
 - isbn
 - titre
