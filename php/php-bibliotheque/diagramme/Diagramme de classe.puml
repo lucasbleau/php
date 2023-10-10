@@ -1,0 +1,38 @@
+@startuml
+
+class Livre {
+- isbn
+- titre
+- auteur
+- nombrePage
+}
+
+class Blue-Ray {
+- titre
+- réalisateur
+- duree
+- anneeSortie
+}
+
+class Magazine {
+- titre
+- numero
+- datePublication
+}
+
+class Adhérents {
+- numeroAdherent
+- nombrePage
+- prenom
+- email
+- dateAdhesion
+}
+
+class Emprunt {
+- dateEmprunt
+- dateRetourEstimer
+- dateRetour
+
+}
+
+@enduml
